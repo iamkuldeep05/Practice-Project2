@@ -122,3 +122,31 @@ html, body{
     height: 92.5%;
     object-fit: cover;
 }
+#black-gola{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -19%;
+    top: 25%;
+}
+#black-gola h5{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#rotated{
+    position: absolute;
+    left: -10%;
+    bottom: 4%;
+    /*background-color: red;*/
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 30px;
+    font-weight: 500;
+}
